@@ -23,6 +23,11 @@
     "prettier": "3.2.4",
     "typescript": "5.3.3"
   },
+  "permissions": ["identity"],
+    "oauth2": {
+      "client_id": "YOUR_GOOGLE_CLIENT_ID",
+      "scopes": ["profile", "email"]
+  }, 
   "manifest": {
     "host_permissions": [
       "https://*/*"
